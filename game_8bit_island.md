@@ -47,7 +47,9 @@ flags: []
 *Your bedroom. Closet, bed, bedside table, window.*
 - exits: east (kitchen)
 - objects: closet, bed, table (bedside table), window, note
-- script: note says: "hi darling, your magazine didn't arrive. love, mom ♥♥♥" (cannot be taken)
+- script: 
+  -**look note** note says: "hi darling, your magazine didn't arrive. love, mom ♥♥♥" (cannot be taken)
+  -**open closet** you open the closet and find some clothes. you get changed.
 
 ### kitchen
 *Your kitchen. Fridge, cooker, pantry. A back door leads outside? No, exits are west and south.*
