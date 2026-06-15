@@ -1,6 +1,6 @@
 # 8-Bit Island
 
-*A tiny text adventure from the Commodore 64 era, now running entirely inside an LLM chat.*
+*A tiny text adventure originally from the Commodore 64, now running entirely inside an LLM chat.*
 
 ---
 
